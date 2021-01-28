@@ -30,8 +30,10 @@ public class Tdd_sudoku {
     }
     
     public static int [] tamanio_tabla(){
-        
-        return null;
+        int numColumnas= tabla.length;
+        int numFilas= tabla[0].length;
+        int reslut[]={numColumnas,numFilas};
+        return reslut;
     }
    
     
