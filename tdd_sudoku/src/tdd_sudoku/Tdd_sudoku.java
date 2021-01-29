@@ -35,7 +35,9 @@ public class Tdd_sudoku {
         int reslut[]={numColumnas,numFilas};
         return reslut;
     }
-   
+   public boolean fila_elementosRepetidos(){
+    return true;
+   }
     
     
     

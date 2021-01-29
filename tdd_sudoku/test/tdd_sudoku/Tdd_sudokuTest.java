@@ -31,5 +31,12 @@ public class Tdd_sudokuTest {
         assertEquals(9, res[0]);
         assertEquals(9, res[1]);
     }
-    
+    @Test
+    public void testElementos_repetidosFila() {
+        
+        boolean res= operaciones.fila_elementosRepetidos();
+        
+        assertEquals(false, res);
+        
+    }
 }
